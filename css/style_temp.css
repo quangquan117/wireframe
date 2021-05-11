@@ -78,3 +78,9 @@ main footer p{
     text-align: center;
     text-transform: capitalize;
 }
+section p{
+    max-width: 45%;
+}
+section div{
+    max-width: 45%;
+}
