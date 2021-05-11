@@ -1,0 +1,80 @@
+/* reset */
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    background: black url(../asset/fond.jpg)no-repeat fixed center center / cover;
+}
+body{
+    font: 1.6rem sans-serif;
+    margin: 0;
+}
+h1,h2,ol,p{
+    margin: 0;
+    font-weight: lighter;
+}
+a{
+    outline: none;
+    text-decoration: none;
+    color: #222;
+}
+*{
+    box-sizing: border-box;
+}
+/*theme*/
+:root{
+    --color-default: #6DC8FF;
+    --color-black: black;
+    --color-terran: #0426C0;
+    --color-zerg: #7900AD;
+    --header-color: #F7CE00;
+
+}
+header, main{
+    max-width: 80rem;
+    margin: 0 auto;
+    border: solid .1rem transparent;
+    background-color: rgba(255,255,255,0.8);
+}
+header{
+    margin-top: 3rem;
+}
+main fieldset{
+    max-width: 10%;
+    width: 50px;
+    display: block;
+}
+main nav h2, main section h2{
+    top: 0;
+    padding: .5rem;
+    line-height: 4.5rem;
+    text-transform: capitalize;
+    background-color: var(--color-body);
+    box-shadow: 0 .3rem 0 #ccc;
+    color: rgba(0,0,0,0.5);
+    text-shadow: black;
+}
+main .pictures img{
+    display: block;
+    width: 100%;
+}
+nav ol{
+    margin: 1.5rem 0;
+}
+nav ol li{
+    line-height: 2.6rem;
+}
+section p{
+    padding: .5rem;
+    line-height: 2.6rem;
+    text-align: justify;
+}
+main section .pictures{
+    padding-bottom: .5rem;
+}
+main footer{
+    padding: .5rem;
+}
+main footer p{
+    text-align: center;
+    text-transform: capitalize;
+}
